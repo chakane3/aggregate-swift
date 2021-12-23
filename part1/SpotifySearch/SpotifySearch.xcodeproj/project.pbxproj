@@ -16,6 +16,7 @@
 		94E0C0C62774F7FD0000F009 /* SpotifySearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E0C0C52774F7FD0000F009 /* SpotifySearchTests.swift */; };
 		94E0C0D02774F7FD0000F009 /* SpotifySearchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E0C0CF2774F7FD0000F009 /* SpotifySearchUITests.swift */; };
 		94E0C0D22774F7FD0000F009 /* SpotifySearchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E0C0D12774F7FD0000F009 /* SpotifySearchUITestsLaunchTests.swift */; };
+		94E0C0E12774FA310000F009 /* SecretKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E0C0E02774FA310000F009 /* SecretKey.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		94E0C0CB2774F7FD0000F009 /* SpotifySearchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpotifySearchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		94E0C0CF2774F7FD0000F009 /* SpotifySearchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifySearchUITests.swift; sourceTree = "<group>"; };
 		94E0C0D12774F7FD0000F009 /* SpotifySearchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifySearchUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		94E0C0E02774FA310000F009 /* SecretKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecretKey.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		94E0C0AD2774F7F90000F009 /* SpotifySearch */ = {
 			isa = PBXGroup;
 			children = (
+				94E0C0DF2774FA220000F009 /* Secrets */,
 				94E0C0DE2774F85C0000F009 /* Supporting Files */,
 				94E0C0B22774F7F90000F009 /* ViewController.swift */,
 				94E0C0BC2774F7FD0000F009 /* Info.plist */,
@@ -133,6 +136,14 @@
 				94E0C0B72774F7FD0000F009 /* Assets.xcassets */,
 			);
 			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		94E0C0DF2774FA220000F009 /* Secrets */ = {
+			isa = PBXGroup;
+			children = (
+				94E0C0E02774FA310000F009 /* SecretKey.swift */,
+			);
+			path = Secrets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,6 +278,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				94E0C0B32774F7F90000F009 /* ViewController.swift in Sources */,
+				94E0C0E12774FA310000F009 /* SecretKey.swift in Sources */,
 				94E0C0AF2774F7F90000F009 /* AppDelegate.swift in Sources */,
 				94E0C0B12774F7F90000F009 /* SceneDelegate.swift in Sources */,
 			);
