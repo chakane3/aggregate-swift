@@ -6,3 +6,5 @@
 //
 
 import Foundation
+
+// the base spotify uri is https://api.spotify.com/v1
