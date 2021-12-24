@@ -16,6 +16,7 @@
 		94E8094E2775667100296EC2 /* BooksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E8094D2775667100296EC2 /* BooksTests.swift */; };
 		94E809582775667100296EC2 /* BooksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E809572775667100296EC2 /* BooksUITests.swift */; };
 		94E8095A2775667100296EC2 /* BooksUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E809592775667100296EC2 /* BooksUITestsLaunchTests.swift */; };
+		94E809692775688400296EC2 /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E809682775688400296EC2 /* AppError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		94E809532775667100296EC2 /* BooksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BooksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		94E809572775667100296EC2 /* BooksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksUITests.swift; sourceTree = "<group>"; };
 		94E809592775667100296EC2 /* BooksUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		94E809682775688400296EC2 /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +101,9 @@
 		94E809352775666E00296EC2 /* Books */ = {
 			isa = PBXGroup;
 			children = (
-				94E809362775666E00296EC2 /* AppDelegate.swift */,
-				94E809382775666E00296EC2 /* SceneDelegate.swift */,
+				94E809672775687400296EC2 /* Network Services */,
 				94E8093A2775666E00296EC2 /* ViewController.swift */,
-				94E8093C2775666E00296EC2 /* Main.storyboard */,
-				94E8093F2775667100296EC2 /* Assets.xcassets */,
-				94E809412775667100296EC2 /* LaunchScreen.storyboard */,
+				94E809662775685000296EC2 /* Supporting Files */,
 				94E809442775667100296EC2 /* Info.plist */,
 			);
 			path = Books;
@@ -125,6 +124,26 @@
 				94E809592775667100296EC2 /* BooksUITestsLaunchTests.swift */,
 			);
 			path = BooksUITests;
+			sourceTree = "<group>";
+		};
+		94E809662775685000296EC2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				94E809362775666E00296EC2 /* AppDelegate.swift */,
+				94E809382775666E00296EC2 /* SceneDelegate.swift */,
+				94E8093C2775666E00296EC2 /* Main.storyboard */,
+				94E8093F2775667100296EC2 /* Assets.xcassets */,
+				94E809412775667100296EC2 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		94E809672775687400296EC2 /* Network Services */ = {
+			isa = PBXGroup;
+			children = (
+				94E809682775688400296EC2 /* AppError.swift */,
+			);
+			path = "Network Services";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +277,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94E809692775688400296EC2 /* AppError.swift in Sources */,
 				94E8093B2775666E00296EC2 /* ViewController.swift in Sources */,
 				94E809372775666E00296EC2 /* AppDelegate.swift in Sources */,
 				94E809392775666E00296EC2 /* SceneDelegate.swift in Sources */,
