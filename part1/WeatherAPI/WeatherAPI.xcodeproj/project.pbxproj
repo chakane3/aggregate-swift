@@ -21,6 +21,7 @@
 		94E809B02775755400296EC2 /* WeatherAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E809AF2775755400296EC2 /* WeatherAPI.swift */; };
 		94E809B3277575AA00296EC2 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E809B2277575AA00296EC2 /* WeatherModel.swift */; };
 		94E809B62775761400296EC2 /* SecretKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E809B52775761400296EC2 /* SecretKey.swift */; };
+		94E809BA277577D800296EC2 /* testJSON.json in Resources */ = {isa = PBXBuildFile; fileRef = 94E809B9277577D800296EC2 /* testJSON.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		94E809AF2775755400296EC2 /* WeatherAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherAPI.swift; sourceTree = "<group>"; };
 		94E809B2277575AA00296EC2 /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
 		94E809B52775761400296EC2 /* SecretKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecretKey.swift; sourceTree = "<group>"; };
+		94E809B9277577D800296EC2 /* testJSON.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = testJSON.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				94E8099027756DCD00296EC2 /* WeatherAPITests.swift */,
+				94E809B9277577D800296EC2 /* testJSON.json */,
 			);
 			path = WeatherAPITests;
 			sourceTree = "<group>";
@@ -288,6 +291,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94E809BA277577D800296EC2 /* testJSON.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
