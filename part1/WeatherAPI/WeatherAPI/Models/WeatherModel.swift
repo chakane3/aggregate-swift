@@ -8,32 +8,24 @@
 import Foundation
 
 struct place: Codable {
-    let location: [placeLocation]
+    let location: locationID
+    let current: currentStats
 }
 
-struct placeLocation: Codable {
+struct locationID: Codable {
+    let name: String
     let country: String
-    let current: [currentConditions]
 }
 
-struct currentConditions: Codable {
-    let condition: [conditionDict]
+struct currentStats: Codable {
+    let temp_f: Double
+    let feelslike_f: Double
+    let wind_mph: Double
+    let wind_dir: String
+    let humidity: Int
+    let condition: sky
 }
 
-struct conditionDict: Codable {
+struct sky: Codable {
     let text: String
 }
-
-extension place {
-    static func getWeather(from jsonData: Data) throws -> place {
-        do {
-            let weatherFromPlace = try JSONDecoder().decode(place.self, from: jsonData)
-            return weatherFromPlace
-        } catch {
-            throw error
-        }
-    }
-}
-
-
-//chakanezshegogggggggg
